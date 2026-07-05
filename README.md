@@ -26,6 +26,8 @@
 
 | Date | Title | Paper | Code | Comment |
 |------|-------|-------|------|---------|
+| 2025-07 | Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs | [Paper](https://arxiv.org/abs/2507.09477) | - | Li et al. 统一 RAG 与推理，系统梳理检索-推理融合方法、数据集与前沿框架 |
+| 2025-06 | Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic RAG for Industry Challenges | [Paper](https://arxiv.org/abs/2506.10408) | - | Liang et al. 将 Agentic RAG 分为 System 1（预定义推理）与 System 2（自主代理推理）|
 | 2025-03 | Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning | [Paper](https://arxiv.org/abs/2503.09516) | - | 用 RL 训练 LLM 在推理过程中自主搜索，引入 retrieved token masking 实现稳定 RL 训练 |
 | 2025-02 | 检索增强生成 (RAG) 技术综述 | [Paper](https://syhya.github.io/zh/posts/2025-02-03-rag/) | - | Yue Shui. 系统梳理 RAG 基础知识、范式演进、核心技术与前沿进展 |
 | 2025-02 | A Survey on Multimodal Retrieval Augmented Generation | [Paper](https://arxiv.org/abs/2502.08826) | - | Abootorabi et al. 多模态 RAG 全面综述 |
@@ -100,6 +102,7 @@ Agentic RAG 将自主代理集成到 RAG 流程中，赋予系统动态决策、
 
 | Date | Title | Paper | Code | Comment |
 |------|-------|-------|------|---------|
+| 2026-06 | HMARS: A Hierarchical Multi-Agent Memory System for Long-Context Reasoning | [Paper](https://arxiv.org/abs/2606.28349) | - | Li et al. 层级多代理记忆系统，将长上下文视为受管理记忆而非扁平语料库 |
 | 2023-08 | AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation | [Paper](https://arxiv.org/abs/2308.08155) | [Code](https://github.com/microsoft/autogen) | Wu et al. 多代理对话框架 |
 | 2023-03 | Self-Refine: Iterative Refinement with Self-Feedback | [Paper](https://arxiv.org/abs/2303.17651) | - | Madaan et al. 自我反馈迭代改进 |
 | 2023-03 | Reflexion: Language Agents with Verbal Reinforcement Learning | [Paper](https://arxiv.org/abs/2303.11366) | - | Shinn et al. 语言代理的口头强化学习 |
@@ -109,6 +112,18 @@ Agentic RAG 将自主代理集成到 RAG 流程中，赋予系统动态决策、
 
 | Date | Title | Paper | Code | Comment |
 |------|-------|-------|------|---------|
+| 2026-07 | KidnapRAG: A Black-Box Attack for Hijacking Reasoning in Agentic RAG | [Paper](https://arxiv.org/abs/2607.00422) | - | Choi et al. 首个针对 Agentic RAG 的黑盒投毒攻击，劫持多步推理链 |
+| 2026-06 | MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG | [Paper](https://arxiv.org/abs/2606.26793) | - | Singh et al. IJCNN 2026. 记忆引导 MCTS + 新颖性约束多模态 Agentic RAG 红队测试 |
+| 2026-05 | Verbal-R3: Verbal Reranker as the Missing Bridge between Retrieval and Reasoning | [Paper](https://arxiv.org/abs/2605.01399) | - | Park et al. ACL 2026 Main. 语言化重排序器连接检索与推理，复杂 QA SOTA |
+| 2026-05 | SEMA-RAG: A Self-Evolving Multi-Agent RAG for Medical Reasoning | [Paper](https://arxiv.org/abs/2605.17101) | - | Huang et al. ACL 2026 Findings. 三专家代理（Interpreter/Explorer/Arbiter）自适应检索医疗推理 |
+| 2026-05 | GRASP: Graph Agentic Search over Propositions for Multi-hop QA | [Paper](https://arxiv.org/abs/2605.16598) | - | Jenkins et al. 层级实体-命题-段落图代理搜索，减少 40-50% token 用量 |
+| 2026-05 | Superintelligent Retrieval Agent (SIRA) | [Paper](https://arxiv.org/abs/2605.06647) | - | Yang et al. 将多轮代理检索压缩为单一语料判别动作，超越 Perplexity 代理 |
+| 2026-05 | LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG | [Paper](https://arxiv.org/abs/2605.06285) | - | Zheng & Worring. 将 Agentic RAG 移至连续隐空间，~90% 延迟降低与显式方法匹配 |
+| 2026-05 | CuSearch: Curriculum Rollout Sampling via Search Depth for Agentic RAG | [Paper](https://arxiv.org/abs/2605.11611) | - | Shen et al. 课程式 rollout 采样 RL 训练 Agentic RAG，+11.8 EM 点提升 |
+| 2026-05 | AutoSearch: Adaptive Search Depth for Efficient Agentic RAG via Reinforcement Learning | [Paper](https://aclanthology.org/2026.findings-acl.1399/) | - | Sun et al. ACL 2026 Findings. RL 自适应决定搜索终止时机，平衡成本与精度 |
+| 2026-05 | AgenticRAG: Agentic Retrieval for Enterprise Knowledge Bases | [Paper](https://arxiv.org/abs/2605.05538) | - | Suresh et al. 企业搜索轻量级代理封装，BRIGHT 召回@1 提升 21.8pp |
+| 2025-12 | Process vs. Outcome Reward: Which is Better for Agentic RAG Reinforcement Learning | [Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/54e1381d0c0598127b90af4c940fd3d9-Abstract-Conference.html) | - | Zhang et al. NeurIPS 2025. 过程级 vs 结果级奖励 RL 训练，结果级奖励更优 |
+| 2025-08 | End-to-End Agentic RAG System Training for Traceable Diagnostic Reasoning (Deep-DxSearch) | [Paper](https://arxiv.org/abs/2508.15746) | - | Zheng et al. 端到端训练 Agentic RAG，可追溯诊断推理与证据归因 |
 | 2025-03 | Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning | [Paper](https://arxiv.org/abs/2503.09516) | - | Jin et al. RL 训练 LLM 自主搜索 |
 | 2025-03 | R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning | [Paper](https://arxiv.org/abs/2503.05592) | - | Song et al. 纯 RL 教会 LLM 自主调用搜索 |
 | 2025-01 | Search-o1: Agentic Retrieval-Augmented Reasoning Models | [Paper](https://arxiv.org/abs/2501.05366) | - | Li et al. Agentic RAG 集成到推理模型，含 Reason-in-Documents 模块 |
@@ -158,6 +173,9 @@ Agentic RAG 将自主代理集成到 RAG 流程中，赋予系统动态决策、
 
 | Date | Title | Paper | Code | Comment |
 |------|-------|-------|------|---------|
+| 2026-07 | Bayesian Uncertainty Propagation for Agentic RAG Pipelines | [Paper](https://arxiv.org/abs/2607.00972) | - | Donaldson et al. ICMIAM 2026. 贝叶斯网络传播不确定性跨规划/评估/生成阶段 |
+| 2026-05 | AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning | [Paper](https://aclanthology.org/2026.findings-acl.66/) | - | You et al. ACL 2026 Findings. 首个 Agentic RAG 逐跳检索推理质量诊断基准 |
+| 2026-05 | Is Agentic RAG Worth It? An Experimental Comparison of RAG Approaches | [Paper](https://aclanthology.org/2026.acl-industry.5/) | - | Ferrazzi et al. ACL 2026 Industry. 朴素 RAG、增强 RAG 与 Agentic RAG 实证对比 |
 | 2025-01 | SafeRAG: Safety Benchmark for RAG | [Paper](https://arxiv.org/abs/2501.18636) | - | Liang et al. RAG 安全性基准 |
 | 2024-04 | ClashEval: Knowledge Conflict Evaluation | [Paper](https://arxiv.org/abs/2404.10198) | - | Wu et al. 知识冲突评估 |
 | 2024-01 | CRUD-RAG: Chinese RAG Benchmark | [Paper](https://arxiv.org/abs/2401.17043) | - | Lyu et al. 中文 RAG 基准 |
@@ -179,6 +197,10 @@ Agentic RAG 将自主代理集成到 RAG 流程中，赋予系统动态决策、
 
 | Domain | Date | Title | Paper | Code | Comment |
 |--------|------|-------|-------|------|---------|
+| Robotics | 2026-06 | Agentic RAG-VLM: Affordance-Aware RAG with Self-Reflective Planning for Robotic Grasping | [Paper](https://arxiv.org/abs/2606.31200) | - | Chen et al. 层次化 RAG 连接 VLM 理解与机器人抓取 + 自我反思恢复循环 |
+| QA | 2026-05 | From RAG to Agentic RAG for Faithful Islamic Question Answering | [Paper](https://aclanthology.org/2026.findings-acl.1317/) | - | Bhatia et al. ACL 2026 Findings. Agentic RAG 结构化工具调用提升宗教 QA 事实忠实性 |
+| Education | 2026-06 | Carolina Guide: A Multi-Agent RAG System with Institutional Guardrails | [Paper](https://arxiv.org/abs/2606.28360) | - | Torsion & Zhou. 模块化多 Agent RAG，98.9% 检索成功率，机构安全护栏 |
+| Enterprise | 2026-06 | CAMI: Cost-Aware Agent-Guided Multi-Indexing for Semantic Retrieval | [Paper](https://arxiv.org/abs/2606.28365) | - | Qidwai et al. ACM CAIS 2026. 代理引导成本感知多索引策略，+9.4% recall@10 |
 | Finance | 2024-03 | AlphaFin: Benchmarking Financial Analysis | [Paper](https://arxiv.org/abs/2403.12582) | - | Zhang et al. 金融分析基准 |
 | Recommendation | 2024-03 | CoRAL: Collaborative Retrieval-Augmented LLMs for Recommendation | [Paper](https://arxiv.org/abs/2403.06447) | - | Wu et al. 协同检索增强推荐 |
 | Medical | 2024-02 | REALM: Retrieval Augmented Large Medical Model | [Paper](https://arxiv.org/abs/2402.07016) | - | Zhu et al. 医疗领域检索增强 |
